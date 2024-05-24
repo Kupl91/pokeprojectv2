@@ -35,14 +35,14 @@ const PokemonsPage = () => {
   } = usePokemonActions();
 
   return (
-    <div>
+    <div className='bg-black-500'>
       
       <FilterAndSort 
         handleSortChange={handleSortChange} 
         handleFilterTypeChange={handleFilterTypeChange}
         handleFilterValueChange={handleFilterValueChange}
       />
-      <PokemonList
+      <PokemonList 
         pokemons={sortedAndFilteredPokemons}
         handleDeleteClick={handleDeleteClick}
         handleDetailsClick={handleDetailsClick}
@@ -67,7 +67,7 @@ const PokemonsPage = () => {
        newPokemon={newPokemon}
        showForm={showForm} 
       />
-      <Button variant="black">Херов тейлвинд, рот его ебал</Button> 
+      <Button variant="outline">Херов тейлвинд, рот его ебал</Button> 
 
     </div>
   );
