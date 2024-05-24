@@ -1,6 +1,6 @@
 {
   "prisma": {
-    "schema": "C:/Users/pavel.kuplensky/pokeprojectv2/prisma/schema.prisma"
+    "schema": "prisma/schema.prisma"
   },
   "type": "module",
   "name": "pokeprojectv2",
